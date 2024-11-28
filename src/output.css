@@ -8522,14 +8522,19 @@ html:has(.drawer-open.drawer-open) {
   margin: 0px;
 }
 
-.my-6 {
-  margin-top: 1.5rem;
-  margin-bottom: 1.5rem;
+.mx-5 {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
 }
 
-.my-3 {
-  margin-top: 0.75rem;
-  margin-bottom: 0.75rem;
+.my-10 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+}
+
+.my-5 {
+  margin-top: 1.25rem;
+  margin-bottom: 1.25rem;
 }
 
 .ml-20 {
@@ -8548,24 +8553,8 @@ html:has(.drawer-open.drawer-open) {
   margin-top: 0.5rem;
 }
 
-.mt-20 {
-  margin-top: 5rem;
-}
-
-.mt-4 {
-  margin-top: 1rem;
-}
-
-.mt-3 {
-  margin-top: 0.75rem;
-}
-
-.mt-12 {
-  margin-top: 3rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
+.mt-5 {
+  margin-top: 1.25rem;
 }
 
 .mt-8 {
@@ -8695,6 +8684,10 @@ html:has(.drawer-open.drawer-open) {
   width: weird-and-invalid;
 }
 
+.w-full {
+  width: 100%;
+}
+
 .flex-1 {
   flex: 1 1 0%;
 }
@@ -8717,6 +8710,14 @@ html:has(.drawer-open.drawer-open) {
 
 .grow {
   flex-grow: 1;
+}
+
+.basis-\[35\%\] {
+  flex-basis: 35%;
+}
+
+.basis-\[60\%\] {
+  flex-basis: 60%;
 }
 
 .table-auto {
@@ -8761,6 +8762,10 @@ html:has(.drawer-open.drawer-open) {
 
 .transform-none {
   transform: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
 }
 
 .touch-auto {
@@ -9231,6 +9236,24 @@ html:has(.drawer-open.drawer-open) {
   margin-left: calc(0.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.space-x-4 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1rem * var(--tw-space-x-reverse));
+  margin-left: calc(1rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-7 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(1.75rem * var(--tw-space-x-reverse));
+  margin-left: calc(1.75rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
+.space-x-10 > :not([hidden]) ~ :not([hidden]) {
+  --tw-space-x-reverse: 0;
+  margin-right: calc(2.5rem * var(--tw-space-x-reverse));
+  margin-left: calc(2.5rem * calc(1 - var(--tw-space-x-reverse)));
+}
+
 .space-y-reverse > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 1;
 }
@@ -9665,14 +9688,9 @@ html:has(.drawer-open.drawer-open) {
   border-style: none;
 }
 
-.bg-\[\#00abf0\] {
+.bg-\[\#080808\] {
   --tw-bg-opacity: 1;
-  background-color: rgb(0 171 240 / var(--tw-bg-opacity, 1));
-}
-
-.bg-\[\#081b29\] {
-  --tw-bg-opacity: 1;
-  background-color: rgb(8 27 41 / var(--tw-bg-opacity, 1));
+  background-color: rgb(8 8 8 / var(--tw-bg-opacity, 1));
 }
 
 .bg-\[rgb\(255\2c 0\2c 0\)\] {
@@ -9680,13 +9698,18 @@ html:has(.drawer-open.drawer-open) {
   background-color: rgb(255 0 0 / var(--tw-bg-opacity, 1));
 }
 
-.bg-transparent {
-  background-color: transparent;
-}
-
 .bg-neutral {
   --tw-bg-opacity: 1;
   background-color: var(--fallback-n,oklch(var(--n)/var(--tw-bg-opacity, 1)));
+}
+
+.bg-orange-300 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(253 186 116 / var(--tw-bg-opacity, 1));
+}
+
+.bg-transparent {
+  background-color: transparent;
 }
 
 .decoration-slice {
@@ -9811,6 +9834,10 @@ html:has(.drawer-open.drawer-open) {
   padding: 2.5rem;
 }
 
+.p-20 {
+  padding: 5rem;
+}
+
 .px-1 {
   padding-left: 0.25rem;
   padding-right: 0.25rem;
@@ -9882,6 +9909,10 @@ html:has(.drawer-open.drawer-open) {
   vertical-align: super;
 }
 
+.font-sans {
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
@@ -9892,18 +9923,18 @@ html:has(.drawer-open.drawer-open) {
   line-height: 1;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
-}
-
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
+.text-6xl {
+  font-size: 3.75rem;
+  line-height: 1;
 }
 
 .text-lg {
   font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
   line-height: 1.75rem;
 }
 
@@ -9915,8 +9946,8 @@ html:has(.drawer-open.drawer-open) {
   font-weight: 500;
 }
 
-.font-normal {
-  font-weight: 400;
+.font-semibold {
+  font-weight: 600;
 }
 
 .uppercase {
@@ -9987,10 +10018,6 @@ html:has(.drawer-open.drawer-open) {
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
 
-.leading-3 {
-  line-height: .75rem;
-}
-
 .text-\[\#00abf0\] {
   --tw-text-opacity: 1;
   color: rgb(0 171 240 / var(--tw-text-opacity, 1));
@@ -10005,18 +10032,14 @@ html:has(.drawer-open.drawer-open) {
   color: rgb(59 130 246 / var(--tw-text-opacity, 1));
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
-}
-
-.text-transparent {
-  color: transparent;
-}
-
 .text-neutral-content {
   --tw-text-opacity: 1;
   color: var(--fallback-nc,oklch(var(--nc)/var(--tw-text-opacity, 1)));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity, 1));
 }
 
 .underline {

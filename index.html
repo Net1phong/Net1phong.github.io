@@ -7,7 +7,7 @@
     <title>Folio</title>
   </head>
   <body class="bg-[#080808] text-white font-sans m-0 p-0">
-    <header id="home" class="w-full">
+    <header class="w-full">
       <nav id="navbar" class="navbar fixed">
         <div class="flex-1">
           <a class="btn btn-ghost text-2xl no-underline ml-20">Neyti.</a>
@@ -17,42 +17,44 @@
             class="menu menu-horizontal bg-transparent px-1 text-xl no-underline mr-20"
           >
             <li>
-              <a href="home" class="hover:text-[#00abf0]">Home</a>
+              <a href="#home" class="hover:text-[#00abf0]">Home</a>
             </li>
             <li>
-              <a href="#" class="hover:text-[#00abf0]">About</a>
+              <a href="#about" class="hover:text-[#00abf0]">About</a>
             </li>
             <li>
-              <a href="#" class="hover:text-[#00abf0]">Portfolio</a>
+              <a href="#skill" class="hover:text-[#00abf0]">Skills</a>
             </li>
             <li>
-              <a href="#" class="hover:text-[#00abf0]">Contact</a>
+              <a href="#portfolio" class="hover:text-[#00abf0]">Portfolio</a>
             </li>
           </ul>
         </div>
       </nav>
     </header>
 
-    <section class="flex items-center h-screen ml-24">
-      <div class="">
-        <h1 class="text-6xl font-semibold">
-          Hello, I'm
-          <span class="text-6xl font-semibold text-[#00abf0]"
-            >Netiphong Singkaew.</span
+    <div id="home">
+      <div class="flex items-center h-screen ml-24">
+        <div class="">
+          <h1 class="text-6xl font-semibold">
+            Hello, I'm
+            <span class="text-6xl font-semibold text-[#00abf0]"
+              >Netiphong Singkaew.</span
+            >
+          </h1>
+          <h1 class="text-6xl font-semibold mt-5">
+            I'm a Front-end web developer.
+          </h1>
+          <div
+            class="btn btn-outline flex justify-center items-center text-white w-40 h-full bg-transparent hover:bg-[#00abf0] mt-8"
           >
-        </h1>
-        <h1 class="text-6xl font-semibold mt-5">
-          I'm a full-stack web developer.
-        </h1>
-        <div
-          class="btn btn-outline flex justify-center items-center text-white w-40 h-full bg-transparent hover:bg-[#00abf0] mt-8"
-        >
-          <a href="#" class="text-lg text-white font-medium rounded"
-            >View my work</a
-          >
+            <a href="#portfolio" class="text-lg text-white font-medium rounded"
+              >View my work</a
+            >
+          </div>
         </div>
       </div>
-    </section>
+    </div>
 
     <div id="about">
       <div class="container p-20">
@@ -61,18 +63,184 @@
             <img src="images/777.jpg" alt="" class="w-full rounded" />
           </div>
           <div class="basis-[60%]">
-            <h1 class="text-5xl font-medium my-5">About Me</h1>
-            <p>
-              I'm a Full-Stack Developer for University of Phayao in Thailand.
-I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.
-            </p>
+            <h1 class="text-5xl font-medium my-5">About</h1>
 
-            <div class="flex space-x-10 my-5">
-              <p class="text-lg font-medium">Skills</p>
-              <p class="text-lg font-medium">Experience</p>
-              <p class="text-lg font-medium">Education</p>
+            <div class="my-5">
+              <h1 class="text-xl font-medium">
+                Name :
+                <span class="text-lg font-normal">Netiphong Singkaew</span>
+              </h1>
+              <h1 class="text-xl font-medium">
+                Gender :
+                <span class="text-lg font-normal">Male</span>
+              </h1>
+              <h1 class="text-xl font-medium">
+                Nationality :
+                <span class="text-lg font-normal">Thai</span>
+              </h1>
             </div>
+            <p class="text-xl">
+              I'm a Front-end Developer for University of Phayao in Thailand. I
+              have serious passion for UI effects, animations and creating
+              intuitive, dynamic user experiences.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <div id="skill" class="p-8">
+      <div class="container w-full">
+        <h1 class="text-5xl font-medium my-5 flex justify-center items-center">
+          Skill
+        </h1>
+        <div class="grid grid-cols-5 gap-10 mt-12 items-center">
+          <div
+            class="bg-[#262626] p-10 text-xl font-medium rounded-md flex items-center justify-center flex-col"
+          >
+            <img
+              class="size-1/2"
+              src="https://skillicons.dev/icons?i=html"
+              alt=""
+            /><br />
+            <h2 class="">HTML</h2>
+          </div>
+          <div
+            class="bg-[#262626] p-10 text-xl font-medium rounded-md flex items-center justify-center flex-col"
+          >
+            <img
+              class="size-1/2"
+              src="https://skillicons.dev/icons?i=css"
+              alt=""
+            /><br />
+            <span>CSS</span>
+          </div>
+          <div
+            class="bg-[#262626] p-10 text-xl font-medium rounded-md flex items-center justify-center flex-col"
+          >
+            <img
+              class="size-1/2"
+              src="https://skillicons.dev/icons?i=js"
+              alt=""
+            /><br />
+            <h2>JavaScript</h2>
+          </div>
+          <div
+            class="bg-[#262626] p-10 text-xl font-medium rounded-md flex items-center justify-center flex-col"
+          >
+            <img
+              class="size-1/2"
+              src="https://skillicons.dev/icons?i=py"
+              alt=""
+            /><br />
+            <h2>Python</h2>
+          </div>
+          <div
+            class="bg-[#262626] p-10 text-xl font-medium rounded-md flex items-center justify-center flex-col"
+          >
+            <img
+              class="size-1/2"
+              src="https://skillicons.dev/icons?i=java"
+              alt=""
+            /><br />
+            <h2>Java</h2>
+          </div>
+          <div
+            class="bg-[#262626] p-10 text-xl font-medium rounded-md flex items-center justify-center flex-col"
+          >
+            <img
+              class="size-1/2"
+              src="https://skillicons.dev/icons?i=vue"
+              alt=""
+            /><br />
+            <h2>Vue</h2>
+          </div>
+          <div
+            class="bg-[#262626] p-10 text-xl font-medium rounded-md flex items-center justify-center flex-col"
+          >
+            <img
+              class="size-1/2"
+              src="https://skillicons.dev/icons?i=react"
+              alt=""
+            /><br />
+            <h2>React</h2>
+          </div>
+          <div
+            class="bg-[#262626] p-10 text-xl font-medium rounded-md flex items-center justify-center flex-col"
+          >
+            <img
+              class="size-1/2"
+              src="https://skillicons.dev/icons?i=tailwind"
+              alt=""
+            /><br />
+            <h2>Tailwind</h2>
+          </div>
+          <div
+            class="bg-[#262626] p-10 text-xl font-medium rounded-md flex items-center justify-center flex-col"
+          >
+            <img
+              class="size-1/2"
+              src="https://skillicons.dev/icons?i=figma"
+              alt=""
+            /><br />
+            <h2>Figma</h2>
+          </div>
+          <div
+            class="bg-[#262626] p-10 text-xl font-medium rounded-md flex items-center justify-center flex-col"
+          >
+            <img
+              class="size-1/2"
+              src="https://skillicons.dev/icons?i=discord"
+              alt=""
+            /><br />
+            <h2>Discord</h2>
+          </div>
+          <div
+            class="bg-[#262626] p-10 text-xl font-medium rounded-md flex items-center justify-center flex-col"
+          >
+            <img
+              class="size-1/2"
+              src="https://skillicons.dev/icons?i=github"
+              alt=""
+            /><br />
+            <h2>Githup</h2>
+          </div>
+          <div
+            class="bg-[#262626] p-10 text-xl font-medium rounded-md flex items-center justify-center flex-col"
+          >
+            <img
+              class="size-1/2"
+              src="https://skillicons.dev/icons?i=vscode"
+              alt=""
+            /><br />
+            <h2>Visual Studio Code</h2>
+          </div>
+          <div
+            class="bg-[#262626] p-10 text-xl font-medium rounded-md flex items-center justify-center flex-col"
+          >
+            <img
+              class="size-1/2"
+              src="https://skillicons.dev/icons?i=anaconda"
+              alt=""
+            /><br />
+            <h2>Anaconda</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="portfolio" class="p-12">
+      <div class="container">
+        <h1 class="text-5xl font-medium my-5 flex justify-center items-center">Projects</h1>
+        <div class="grid grid-cols-5 gap-10 mt-12 items-center">
+          <div class="">
+            <img src="" alt="">
+          </div>
+          <div class="">
+            <img src="" alt="">
+          </div>
+          <div class="">
+            <img src="" alt="">
           </div>
         </div>
       </div>
